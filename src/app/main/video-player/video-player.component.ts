@@ -14,7 +14,7 @@ export class VideoPlayerComponent implements AfterContentInit {
   public playingEvent = 'pause';
   public minPlayer = true;
   public superMinPlayer = false;
-  public shuffle = false;
+  public shuffle = true;
   public repeat = false;
   public fullscreenActive = false;
   public notifications = false;
